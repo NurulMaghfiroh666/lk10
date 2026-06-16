@@ -1,3 +1,5 @@
+# lk10
+
 ✅ Autentikasi Login Dasar: Sudah sesuai. Proyek ini sudah memiliki AuthController.php yang mengurus login dan register.
 ✅ Lindungi Route Tertentu: Sudah sesuai. Pada routes/web.php Anda sudah mengelompokkan route (seperti /dashboard, /admin/dashboard, dan /staff/dashboard) di dalam Route::middleware('auth').
 ✅ Validasi Input: Sudah sesuai. Pada fungsi login() dan register() di AuthController, Anda sudah menggunakan $request->validate(...).
